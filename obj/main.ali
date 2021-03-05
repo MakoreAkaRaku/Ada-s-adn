@@ -1,0 +1,86 @@
+V "GNAT Lib v2019"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U main%b		main.adb		72c0637f NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D main.adb		20210304193834 dc34b612 main%b
+D system.ads		20190518041258 32a08138 system%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [main standard 2 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 10|1r6 1r22
+X 6 a-textio.ads
+57K13*Text_IO 727e16 10|1w10 1r26
+64P9*File_Type 10|12r15
+66n23*In_File{66E9} 10|19r27
+114U14*Open 10|19s7
+129U14*Close 10|25s7
+312V13*End_Of_File{boolean} 10|20s13
+378U14*Get 10|21s10
+392U14*Put 10|64s7 69s7
+508U14*Put_Line 10|61s4 62s4 66s4 67s4
+X 10 main.adb
+2U11*Main 2b11 71l5 71t9
+3A9 ch_array(character)<integer> 4r27 13r15 53r28 58r28
+4P9 p_array(3A9) 6r16 7r16
+5R9 tadn 9e14 28r47 49r14
+6p7 cadena1{4P9} 34r25 53m13 56r16 64r20
+7p7 cadena2{4P9} 36r23 38r23 40r23 42r23 58m13 69r20
+8i7 tamany{integer} 32r21 54m13 63r25 68r28
+10R9 file 14e14 15r40 50r11
+11i7 length{integer} 18m15 21r53 22m18 22r35 24m15 24r33 54r29 55r22
+12p7 file_d{6|64P9} 19m20 20r33 21r22 25m21
+13a7 buffer{3A9} 21m38 56r35
+15U14 read_file 15b14 15=24 26l8 26t17 52s4
+15r24 archive{10R9} 18m7 19m12 19r12 20r25 21r14 21m30 21r30 21r45 22m10
+. 22r27 24m7 24r25 25m13 25r13
+16a7 filename{string} 19r35
+28U14 construir_adn 28b14 28=28 48l8 48t21 59s4
+28r28 tipus_adn{5R9} 32r11 34r15 36r13 38r13 40r13 42r13
+29i7 max{integer}
+30i7 n{integer} 32m7 33r13 45m10 45r14
+30i9 m{integer} 34r33 36r31 38r31 40r31 42r31 46m10 46r14
+49r4 marc_adn{5R9} 53m4 54m4 56r7 58m4 59m18 59r18 63r16 64r11 68r19 69r11
+50r4 arxiu{10R9} 52m14 52r14 54r23 55r16 56r29
+55i8 I{integer} 56r24 56r42
+63i8 I{integer} 64r28
+68i11 I{integer} 69r28
+

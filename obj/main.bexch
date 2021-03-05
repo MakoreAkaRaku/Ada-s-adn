@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+F:\Programacio\GNAT\bin\src\Ada's adn\tadn.gpr
+20210305070230
+[BOUND OBJECT FILES]
+F:\Programacio\GNAT\bin\src\Ada's adn\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LF:\Programacio\GNAT\bin\src\Ada's adn\obj\
+-LF:\Programacio\GNAT\bin\src\Ada's adn\obj\
+-LF:/programacio/gnat/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/
+-static
+-static-libgcc
+F:/programacio/gnat/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
